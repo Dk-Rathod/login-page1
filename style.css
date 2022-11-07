@@ -8,7 +8,7 @@ body{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background-image: url(earth-gde5a21f30_1920.jpg);
+    background: url(images/earth-gde5a21f30_1920.jpg);
     font-family: 'Arvo', serif;
 }
 .component{
