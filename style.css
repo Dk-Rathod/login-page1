@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arvo', serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/images/earth-gde5a21f30_1920.jpg);
+    font-family: 'Arvo', serif;
+}
+.component{
+    margin: 0 auto;
+    text-align: center;
+ height: 290px;
+ width: 210px;
+
+ background: transparent;
+ border: 2px solid;
+ border-color: white;
+ border-radius: 11px;
+ 
+}
+.component:hover{
+    height: 300px;
+    width: 220px;
+}
+p{font-size: 10px;}
+hr{
+    background-color: white;
+}
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+
+
+}
+input{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 30px;
+}
+input::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+
+ input, select, textarea {
+    color: white;
+    }
+
+.btn{
+    width: 100px;
+}
+input:hover{
+    height: 40px;
+}
+.btn:hover{
+    height: 40px;
+    width: 111px;
+    font-size: large;
+   
+}
+h1:hover{
+    font-size: 35px;
+}
+    
